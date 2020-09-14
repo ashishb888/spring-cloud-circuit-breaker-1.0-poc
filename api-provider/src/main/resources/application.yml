@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: api-provider
+
+server:  port: 9090
+
+logging:  file:    name: /var/tmp/logs/api-provider/api-provider
