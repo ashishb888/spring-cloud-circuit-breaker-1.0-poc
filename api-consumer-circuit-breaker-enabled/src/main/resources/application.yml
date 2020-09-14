@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: api-consumer-circuit-breaker-enabled
+    
+server:  port: 8001
+
+logging:  file:    name: /var/tmp/logs/api-consumer-circuit-breaker-enabled/api-consumer-circuit-breaker-enabled
+  level:    root: info
+    poc.springcloud: debug
